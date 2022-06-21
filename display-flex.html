@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamento de display Flex</title>
+    <style>
+        /*elemento container, organiza os elementos de lista 
+        por exemplo dentro de uma caixa(container) pode ser usado em qualquer tag*/
+        .flex{
+            max-width: 300px;
+            padding: 10px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        /*elemento filho do container,permite a edição dos elementos q estão
+        dentro do container*/
+        .item{
+            background-color: aqua;
+            margin: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+    </div>
+    
+</body>
+</html>

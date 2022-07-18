@@ -17,7 +17,7 @@
         */
 
         /*Caixa principal */
-        .flex-container {
+        .flex-container{
             margin: 0;
             padding: 0;
             display: flex;
@@ -26,7 +26,7 @@
 
         /*elementos dentro do container*/
         .flex-item {
-            background: rgb(230, 12, 66);
+            background: red;
             height: 50px; /*altura*/
             width: 50px; /*largura*/ 
             line-height: 50px; /*altura da linha*/
@@ -50,22 +50,24 @@
             background-color:rgb(53, 165, 53);
         }
 
+        /*sentido da coluna de cima p/ baixo */
         .column {
             float: left; 
             flex-direction: column;
         }
 
-        .column1 li {
+        .column li {
             background-color:rgb(199, 151, 63);
         }
 
+        /*sentido da coluna de baixo p/ cima */
         .column-reverse {
             float: right;
             flex-direction: column-reverse;
         }
 
-        .column-reserve li {
-            background-color:black;
+        .column-reverse li {
+            background-color:rgb(228, 21, 159);
         }
 
     </style>
